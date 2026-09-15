@@ -1,0 +1,423 @@
+{
+  "gap_horizon_1uav_straight": {
+    "total_cases": 640,
+    "counts_by_gap": {
+      "1": {
+        "CORRECT_RECOVERY": 20
+      },
+      "2": {
+        "CORRECT_RECOVERY": 20
+      },
+      "3": {
+        "CORRECT_RECOVERY": 20
+      },
+      "4": {
+        "CORRECT_RECOVERY": 20
+      },
+      "5": {
+        "CORRECT_RECOVERY": 20
+      },
+      "6": {
+        "CORRECT_RECOVERY": 20
+      },
+      "7": {
+        "CORRECT_RECOVERY": 20
+      },
+      "8": {
+        "CORRECT_RECOVERY": 20
+      },
+      "9": {
+        "CORRECT_RECOVERY": 20
+      },
+      "10": {
+        "CORRECT_RECOVERY": 20
+      },
+      "11": {
+        "CORRECT_RECOVERY": 20
+      },
+      "12": {
+        "CORRECT_RECOVERY": 20
+      },
+      "13": {
+        "CORRECT_RECOVERY": 20
+      },
+      "14": {
+        "CORRECT_RECOVERY": 20
+      },
+      "15": {
+        "CORRECT_RECOVERY": 20
+      },
+      "16": {
+        "CORRECT_RECOVERY": 20
+      },
+      "17": {
+        "CORRECT_RECOVERY": 20
+      },
+      "18": {
+        "CORRECT_RECOVERY": 20
+      },
+      "19": {
+        "CORRECT_RECOVERY": 20
+      },
+      "20": {
+        "CORRECT_RECOVERY": 20
+      },
+      "21": {
+        "CORRECT_RECOVERY": 20
+      },
+      "22": {
+        "CORRECT_RECOVERY": 20
+      },
+      "23": {
+        "CORRECT_RECOVERY": 20
+      },
+      "24": {
+        "CORRECT_RECOVERY": 20
+      },
+      "25": {
+        "CORRECT_RECOVERY": 20
+      },
+      "26": {
+        "CORRECT_RECOVERY": 20
+      },
+      "27": {
+        "CORRECT_RECOVERY": 20
+      },
+      "28": {
+        "CORRECT_RECOVERY": 20
+      },
+      "29": {
+        "CORRECT_RECOVERY": 20
+      },
+      "30": {
+        "CORRECT_RECOVERY": 20
+      },
+      "31": {
+        "DELETED_BEFORE_REACQUISITION": 20
+      },
+      "32": {
+        "DELETED_BEFORE_REACQUISITION": 20
+      }
+    },
+    "total_counts": {
+      "CORRECT_RECOVERY": 600,
+      "DELETED_BEFORE_REACQUISITION": 40
+    },
+    "fraction_by_cause": {
+      "CORRECT_RECOVERY": 0.9375,
+      "DELETED_BEFORE_REACQUISITION": 0.0625
+    },
+    "other_recovery_failure_examples": []
+  },
+  "gap_horizon_1uav_maneuver": {
+    "total_cases": 640,
+    "counts_by_gap": {
+      "1": {
+        "CORRECT_RECOVERY": 20
+      },
+      "2": {
+        "CORRECT_RECOVERY": 20
+      },
+      "3": {
+        "CORRECT_RECOVERY": 20
+      },
+      "4": {
+        "CORRECT_RECOVERY": 20
+      },
+      "5": {
+        "CORRECT_RECOVERY": 20
+      },
+      "6": {
+        "CORRECT_RECOVERY": 20
+      },
+      "7": {
+        "CORRECT_RECOVERY": 20
+      },
+      "8": {
+        "CORRECT_RECOVERY": 20
+      },
+      "9": {
+        "CORRECT_RECOVERY": 20
+      },
+      "10": {
+        "CORRECT_RECOVERY": 20
+      },
+      "11": {
+        "CORRECT_RECOVERY": 20
+      },
+      "12": {
+        "CORRECT_RECOVERY": 20
+      },
+      "13": {
+        "CORRECT_RECOVERY": 20
+      },
+      "14": {
+        "CORRECT_RECOVERY": 20
+      },
+      "15": {
+        "CORRECT_RECOVERY": 20
+      },
+      "16": {
+        "CORRECT_RECOVERY": 20
+      },
+      "17": {
+        "CORRECT_RECOVERY": 20
+      },
+      "18": {
+        "CORRECT_RECOVERY": 20
+      },
+      "19": {
+        "CORRECT_RECOVERY": 20
+      },
+      "20": {
+        "CORRECT_RECOVERY": 20
+      },
+      "21": {
+        "CORRECT_RECOVERY": 20
+      },
+      "22": {
+        "CORRECT_RECOVERY": 20
+      },
+      "23": {
+        "CORRECT_RECOVERY": 20
+      },
+      "24": {
+        "CORRECT_RECOVERY": 20
+      },
+      "25": {
+        "CORRECT_RECOVERY": 20
+      },
+      "26": {
+        "CORRECT_RECOVERY": 20
+      },
+      "27": {
+        "CORRECT_RECOVERY": 20
+      },
+      "28": {
+        "CORRECT_RECOVERY": 20
+      },
+      "29": {
+        "CORRECT_RECOVERY": 20
+      },
+      "30": {
+        "CORRECT_RECOVERY": 20
+      },
+      "31": {
+        "DELETED_BEFORE_REACQUISITION": 20
+      },
+      "32": {
+        "DELETED_BEFORE_REACQUISITION": 20
+      }
+    },
+    "total_counts": {
+      "CORRECT_RECOVERY": 600,
+      "DELETED_BEFORE_REACQUISITION": 40
+    },
+    "fraction_by_cause": {
+      "CORRECT_RECOVERY": 0.9375,
+      "DELETED_BEFORE_REACQUISITION": 0.0625
+    },
+    "other_recovery_failure_examples": []
+  },
+  "gap_horizon_2uav_crossing": {
+    "total_cases": 640,
+    "counts_by_gap": {
+      "1": {
+        "CORRECT_RECOVERY": 20
+      },
+      "2": {
+        "CORRECT_RECOVERY": 20
+      },
+      "3": {
+        "CORRECT_RECOVERY": 20
+      },
+      "4": {
+        "CORRECT_RECOVERY": 20
+      },
+      "5": {
+        "CORRECT_RECOVERY": 20
+      },
+      "6": {
+        "CORRECT_RECOVERY": 20
+      },
+      "7": {
+        "CORRECT_RECOVERY": 20
+      },
+      "8": {
+        "CORRECT_RECOVERY": 20
+      },
+      "9": {
+        "CORRECT_RECOVERY": 20
+      },
+      "10": {
+        "CORRECT_RECOVERY": 20
+      },
+      "11": {
+        "CORRECT_RECOVERY": 18,
+        "GATE_PASSED_BUT_ASSIGNMENT_NOT_SELECTED": 2
+      },
+      "12": {
+        "CORRECT_RECOVERY": 17,
+        "DELETED_BEFORE_REACQUISITION": 1,
+        "ALIVE_BUT_GATE_REJECTED": 2
+      },
+      "13": {
+        "CORRECT_RECOVERY": 16,
+        "GATE_PASSED_BUT_ASSIGNMENT_NOT_SELECTED": 2,
+        "ALIVE_BUT_GATE_REJECTED": 2
+      },
+      "14": {
+        "CORRECT_RECOVERY": 11,
+        "ALIVE_BUT_GATE_REJECTED": 3,
+        "GATE_PASSED_BUT_ASSIGNMENT_NOT_SELECTED": 3,
+        "DELETED_BEFORE_REACQUISITION": 3
+      },
+      "15": {
+        "CORRECT_RECOVERY": 6,
+        "ALIVE_BUT_GATE_REJECTED": 7,
+        "DELETED_BEFORE_REACQUISITION": 5,
+        "GATE_PASSED_BUT_ASSIGNMENT_NOT_SELECTED": 2
+      },
+      "16": {
+        "CORRECT_RECOVERY": 5,
+        "ALIVE_BUT_GATE_REJECTED": 6,
+        "DELETED_BEFORE_REACQUISITION": 9
+      },
+      "17": {
+        "CORRECT_RECOVERY": 3,
+        "ALIVE_BUT_GATE_REJECTED": 4,
+        "GATE_PASSED_BUT_ASSIGNMENT_NOT_SELECTED": 2,
+        "DELETED_BEFORE_REACQUISITION": 11
+      },
+      "18": {
+        "DELETED_BEFORE_REACQUISITION": 13,
+        "CORRECT_RECOVERY": 2,
+        "ALIVE_BUT_GATE_REJECTED": 5
+      },
+      "19": {
+        "CORRECT_RECOVERY": 3,
+        "ALIVE_BUT_GATE_REJECTED": 3,
+        "GATE_PASSED_BUT_ASSIGNMENT_NOT_SELECTED": 1,
+        "DELETED_BEFORE_REACQUISITION": 13
+      },
+      "20": {
+        "CORRECT_RECOVERY": 4,
+        "ALIVE_BUT_GATE_REJECTED": 3,
+        "DELETED_BEFORE_REACQUISITION": 13
+      },
+      "21": {
+        "CORRECT_RECOVERY": 5,
+        "ALIVE_BUT_GATE_REJECTED": 3,
+        "DELETED_BEFORE_REACQUISITION": 12
+      },
+      "22": {
+        "CORRECT_RECOVERY": 7,
+        "GATE_PASSED_BUT_ASSIGNMENT_NOT_SELECTED": 1,
+        "DELETED_BEFORE_REACQUISITION": 10,
+        "ALIVE_BUT_GATE_REJECTED": 2
+      },
+      "23": {
+        "CORRECT_RECOVERY": 7,
+        "ALIVE_BUT_GATE_REJECTED": 1,
+        "DELETED_BEFORE_REACQUISITION": 12
+      },
+      "24": {
+        "CORRECT_RECOVERY": 9,
+        "DELETED_BEFORE_REACQUISITION": 11
+      },
+      "25": {
+        "CORRECT_RECOVERY": 10,
+        "DELETED_BEFORE_REACQUISITION": 10
+      },
+      "26": {
+        "CORRECT_RECOVERY": 11,
+        "DELETED_BEFORE_REACQUISITION": 9
+      },
+      "27": {
+        "CORRECT_RECOVERY": 6,
+        "DELETED_BEFORE_REACQUISITION": 14
+      },
+      "28": {
+        "CORRECT_RECOVERY": 4,
+        "ALIVE_BUT_GATE_REJECTED": 1,
+        "DELETED_BEFORE_REACQUISITION": 15
+      },
+      "29": {
+        "CORRECT_RECOVERY": 3,
+        "DELETED_BEFORE_REACQUISITION": 17
+      },
+      "30": {
+        "DELETED_BEFORE_REACQUISITION": 20
+      },
+      "31": {
+        "DELETED_BEFORE_REACQUISITION": 20
+      },
+      "32": {
+        "DELETED_BEFORE_REACQUISITION": 20
+      }
+    },
+    "total_counts": {
+      "CORRECT_RECOVERY": 347,
+      "GATE_PASSED_BUT_ASSIGNMENT_NOT_SELECTED": 13,
+      "DELETED_BEFORE_REACQUISITION": 238,
+      "ALIVE_BUT_GATE_REJECTED": 42
+    },
+    "fraction_by_cause": {
+      "CORRECT_RECOVERY": 0.5421875,
+      "GATE_PASSED_BUT_ASSIGNMENT_NOT_SELECTED": 0.0203125,
+      "DELETED_BEFORE_REACQUISITION": 0.371875,
+      "ALIVE_BUT_GATE_REJECTED": 0.065625
+    },
+    "other_recovery_failure_examples": []
+  },
+  "gap_horizon_5uav_dense_crossing": {
+    "total_cases": 160,
+    "counts_by_gap": {
+      "1": {
+        "CORRECT_RECOVERY": 17,
+        "ALIVE_BUT_GATE_REJECTED": 2,
+        "GATE_PASSED_BUT_ASSIGNMENT_NOT_SELECTED": 1
+      },
+      "2": {
+        "ALIVE_BUT_GATE_REJECTED": 6,
+        "CORRECT_RECOVERY": 10,
+        "GATE_PASSED_BUT_ASSIGNMENT_NOT_SELECTED": 4
+      },
+      "3": {
+        "ALIVE_BUT_GATE_REJECTED": 15,
+        "CORRECT_RECOVERY": 3,
+        "GATE_PASSED_BUT_ASSIGNMENT_NOT_SELECTED": 2
+      },
+      "4": {
+        "ALIVE_BUT_GATE_REJECTED": 19,
+        "GATE_PASSED_BUT_ASSIGNMENT_NOT_SELECTED": 1
+      },
+      "5": {
+        "ALIVE_BUT_GATE_REJECTED": 20
+      },
+      "10": {
+        "ALIVE_BUT_GATE_REJECTED": 20
+      },
+      "20": {
+        "ALIVE_BUT_GATE_REJECTED": 14,
+        "DELETED_BEFORE_REACQUISITION": 6
+      },
+      "32": {
+        "DELETED_BEFORE_REACQUISITION": 20
+      }
+    },
+    "total_counts": {
+      "CORRECT_RECOVERY": 30,
+      "ALIVE_BUT_GATE_REJECTED": 96,
+      "GATE_PASSED_BUT_ASSIGNMENT_NOT_SELECTED": 8,
+      "DELETED_BEFORE_REACQUISITION": 26
+    },
+    "fraction_by_cause": {
+      "CORRECT_RECOVERY": 0.1875,
+      "ALIVE_BUT_GATE_REJECTED": 0.6,
+      "GATE_PASSED_BUT_ASSIGNMENT_NOT_SELECTED": 0.05,
+      "DELETED_BEFORE_REACQUISITION": 0.1625
+    },
+    "other_recovery_failure_examples": []
+  }
+}

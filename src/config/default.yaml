@@ -1,0 +1,39 @@
+tracking:
+  state_dimension: 6
+  tentative_confirmation_hits: 3
+  tentative_timeout_seconds: 5.0
+  coasting_timeout_seconds: 10.0
+  lost_timeout_seconds: 20.0
+  deletion_timeout_seconds: 32.0
+
+association:
+  # mahalanobis (default) or euclidean
+  metric: mahalanobis
+  mode: full_state
+  # 0.9983 (not 0.99): a Bonferroni-style correction for higher station
+  # frequencies (2-10Hz -> 20-60Hz) - at 0.99, loop_crossing spuriously created 25 tracks for 2 real UAVs ***validated across all 14 scenarios.
+  chi_square_probability: 0.9983
+  # Only used when metric=euclidean. 
+  euclidean_gate_distance: 50.0
+  synchronization_window_ms: 100
+  late_message_policy: drop
+
+filter:
+  type: ukf
+  motion_model: coordinated_turn
+  process_noise_acceleration_std: 2.0
+  turn_rate_process_noise_std: 0.05
+  initial_turn_rate_std: 0.3
+
+fusion:
+  strategy: information
+
+# Deliberately separate from fusion.strategy: that one controls T2TF, this one
+# controls fusion of duplicate GlobalTracks (tracking/duplicate_merger.py) -> changing one never changes the other!
+duplicate_merger:
+  # true = production (default). False is only for scientific ablation 
+  enabled: true
+  fusion_strategy: information
+
+time:
+  time_scale: 1.0

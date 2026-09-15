@@ -1,0 +1,59 @@
+simulation:
+  scenario_id: sensor_informed_multi_uav_nonlinear_in_range
+  duration: 10.0
+  seed: 42
+  station_error_model:
+    type: sensor_informed_v1
+    calibration_profile: data/sensor_informed/artifacts/sensor_informed_v1.json
+uavs:
+- name: uav_curve
+  initial_state:
+  - -30.185537
+  - 23.853426
+  - 45.289473
+  - 5.434737
+  - 0.0
+  - 0.0
+  turn_schedule:
+  - duration_s: 3.0
+    omega: 0.3
+  - duration_s: 3.0
+    omega: -0.3
+- name: uav_straight_1
+  initial_state:
+  - 28.690778
+  - 26.1179
+  - 45.289473
+  - -6.340526
+  - 0.0
+  - 0.0
+- name: uav_straight_2
+  initial_state:
+  - -34.714484
+  - 1.20869
+  - 45.289473
+  - 5.434737
+  - 4.076053
+  - 0.0
+stations:
+- id: A
+  position:
+  - -34.714484
+  - -21.436047
+  frequency_hz: 60.0
+  position_std: 2.0
+  velocity_std: 0.5
+- id: B
+  position:
+  - -3.011853
+  - -21.436047
+  frequency_hz: 35.0
+  position_std: 2.0
+  velocity_std: 0.5
+- id: C
+  position:
+  - 28.690778
+  - -21.436047
+  frequency_hz: 20.0
+  position_std: 2.0
+  velocity_std: 0.5

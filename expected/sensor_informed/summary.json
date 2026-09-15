@@ -1,0 +1,16 @@
+{
+  "identity_switch_counts": {
+    "extreme_dense_swarm_crossing__position_only": {"n_runs": 10, "n_with_identity_switch": 2},
+    "extreme_dense_swarm_crossing__full_state": {"n_runs": 10, "n_with_identity_switch": 1},
+    "geometry_flanking__position_only": {"n_runs": 10, "n_with_identity_switch": 0},
+    "geometry_flanking__full_state": {"n_runs": 10, "n_with_identity_switch": 0},
+    "geometry_inline__position_only": {"n_runs": 10, "n_with_identity_switch": 0},
+    "geometry_inline__full_state": {"n_runs": 10, "n_with_identity_switch": 0},
+    "multi_uav_crossing__position_only": {"n_runs": 10, "n_with_identity_switch": 9},
+    "multi_uav_crossing__full_state": {"n_runs": 10, "n_with_identity_switch": 0},
+    "multi_uav_nonlinear__position_only": {"n_runs": 10, "n_with_identity_switch": 10},
+    "multi_uav_nonlinear__full_state": {"n_runs": 10, "n_with_identity_switch": 0},
+    "visual_occlusion__position_only": {"n_runs": 10, "n_with_identity_switch": 0},
+    "visual_occlusion__full_state": {"n_runs": 10, "n_with_identity_switch": 0}
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "dev_scenarios": [
+    "dev_nominal",
+    "dev_heterogeneous_noise",
+    "dev_crossing",
+    "dev_dropout_multirate"
+  ],
+  "dev_seeds": [
+    1001,
+    1002,
+    1003,
+    1004,
+    1005
+  ],
+  "git_commit": null,
+  "git_dirty": null,
+  "quantile": 0.9983,
+  "weighting_method": "peso total igual por run (peso 1/num_pares_da_run por par genuino), pool ponderado ordenado por valor, D* = valor onde o peso acumulado atinge o quantil",
+  "num_reference_runs": 20,
+  "num_reference_runs_failed": 0,
+  "reference_run_failures": [],
+  "num_genuine_pairs_per_run": {
+    "dev_nominal__seed1001__0b42cdc5": 682,
+    "dev_nominal__seed1002__0b42cdc5": 680,
+    "dev_nominal__seed1003__0b42cdc5": 688,
+    "dev_nominal__seed1004__0b42cdc5": 686,
+    "dev_nominal__seed1005__0b42cdc5": 665,
+    "dev_heterogeneous_noise__seed1001__0b42cdc5": 1060,
+    "dev_heterogeneous_noise__seed1002__0b42cdc5": 1074,
+    "dev_heterogeneous_noise__seed1003__0b42cdc5": 1063,
+    "dev_heterogeneous_noise__seed1004__0b42cdc5": 1123,
+    "dev_heterogeneous_noise__seed1005__0b42cdc5": 1117,
+    "dev_crossing__seed1001__0b42cdc5": 548,
+    "dev_crossing__seed1002__0b42cdc5": 525,
+    "dev_crossing__seed1003__0b42cdc5": 430,
+    "dev_crossing__seed1004__0b42cdc5": 434,
+    "dev_crossing__seed1005__0b42cdc5": 509,
+    "dev_dropout_multirate__seed1001__0b42cdc5": 1031,
+    "dev_dropout_multirate__seed1002__0b42cdc5": 1011,
+    "dev_dropout_multirate__seed1003__0b42cdc5": 1001,
+    "dev_dropout_multirate__seed1004__0b42cdc5": 1035,
+    "dev_dropout_multirate__seed1005__0b42cdc5": 1049
+  },
+  "total_genuine_pairs": 16411,
+  "d_star_m": 38.68727584737331,
+  "sensitivity": {
+    "0.75": {
+      "euclidean_gate_distance_m": 29.01545688552998,
+      "num_runs": 20,
+      "num_completed": 20,
+      "mean_association_accuracy": 0.9171158712637487,
+      "mean_position_rmse_overall_m": 14.39920823832218
+    },
+    "1.0": {
+      "euclidean_gate_distance_m": 38.68727584737331,
+      "num_runs": 20,
+      "num_completed": 20,
+      "mean_association_accuracy": 0.9178894863168849,
+      "mean_position_rmse_overall_m": 14.603953011207235
+    },
+    "1.25": {
+      "euclidean_gate_distance_m": 48.359094809216636,
+      "num_runs": 20,
+      "num_completed": 20,
+      "mean_association_accuracy": 0.9139660712864185,
+      "mean_position_rmse_overall_m": 16.03576006919624
+    }
+  },
+  "python_platform": "Windows-11-10.0.26200-SP0"
+}

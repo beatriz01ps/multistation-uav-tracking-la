@@ -1,0 +1,30 @@
+# GAP_HORIZON G3: 2 UAVs crossing exactly at (0,0,100) at t=80s (verified
+# analytically: initial_state = crossing_point - 80*velocity). Only uav_1 undergoes the blackout. uav_2 stays observed as an identity competitor.
+
+simulation:
+  scenario_id: gap_horizon_2uav_crossing
+  duration: 120.0
+  seed: 5001
+
+uavs:
+  - name: uav_1  # TARGET UNDER TEST TUT
+    initial_state: [-400.0, -160.0, 100.0, 5.0, 2.0, 0.0]
+  - name: uav_2  # DISTRACTOR - never undergoes the blackout
+    initial_state: [400.0, 160.0, 100.0, -5.0, -2.0, 0.0]
+
+stations:
+  - id: A
+    position: [-70.0, -100.0]
+    frequency_hz: 60
+    position_std: 2.0
+    velocity_std: 0.5
+  - id: B
+    position: [0.0, -100.0]
+    frequency_hz: 35
+    position_std: 2.0
+    velocity_std: 0.5
+  - id: C
+    position: [70.0, -100.0]
+    frequency_hz: 20
+    position_std: 2.0
+    velocity_std: 0.5

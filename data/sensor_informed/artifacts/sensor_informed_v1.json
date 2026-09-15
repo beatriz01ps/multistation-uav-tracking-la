@@ -1,0 +1,606 @@
+{
+  "version": "sensor_informed_v1",
+  "calibration_date": "2026-08-28T03:23:34.144139+00:00",
+  "software_commit": null,
+  "software_dirty": null,
+  "input_file_hashes": {
+    "local_tracks_camera_scenario1.csv": "6cbe09dc0d277b61e6c479623bc681c04269546aced97fad33738b6e646c3dc0",
+    "local_tracks_rf_scenario1.csv": "3eff137ef4df50ab553a35532a7e3d1eb3f99ac48ffa13ab5525079616390e09",
+    "local_tracks_camera_scenario2.csv": "4ad0d00e991fc4339831d44ba832b7a11ad11716d316c7aeab4abcbc8b0fc63f",
+    "local_tracks_rf_scenario2.csv": "598750bdd9846028dd86fc962b35a5b17e9f31aff6dd20ed14569599d3f14d35",
+    "local_tracks_camera_scenario3.csv": "a60c493cce8ad826f6a6f4dd14cd695cb986d2d440b3e33482a603af871ffa2a",
+    "local_tracks_rf_scenario3.csv": "53d157e6e690a2e3e9ee5dc491962cbb58b3f4a8e784288897db11640c874104"
+  },
+  "station_geometry_estimate": {
+    "method": "bearing_only_least_squares_triangulation_against_reference_ground_truth",
+    "note": "Position INFERRED via triangulation (RF meas_azimuth_deg against the reference ground truth from the old fused traces) - NEVER supplied by the collaborator, never presented as such.",
+    "estimates": {
+      "1": {
+        "1": {
+          "station_id": "1",
+          "position_xy": [
+            10.088866528864644,
+            -0.029885385603772144
+          ],
+          "num_observations": 16661,
+          "residual_rms_deg": 11.642322152146114
+        },
+        "2": {
+          "station_id": "2",
+          "position_xy": [
+            49.73593246375731,
+            -0.3423194929020793
+          ],
+          "num_observations": 16661,
+          "residual_rms_deg": 9.562232458138434
+        },
+        "3": {
+          "station_id": "3",
+          "position_xy": [
+            90.12614999483493,
+            0.0877211522585732
+          ],
+          "num_observations": 16661,
+          "residual_rms_deg": 11.649165749036687
+        }
+      },
+      "2": {
+        "1": {
+          "station_id": "1",
+          "position_xy": [
+            49.967234225068154,
+            54.98603819146607
+          ],
+          "num_observations": 16661,
+          "residual_rms_deg": 7.251590289616144
+        },
+        "2": {
+          "station_id": "2",
+          "position_xy": [
+            19.36442230609263,
+            2.4256270626559853
+          ],
+          "num_observations": 16661,
+          "residual_rms_deg": 10.577524688263356
+        },
+        "3": {
+          "station_id": "3",
+          "position_xy": [
+            80.4221874321476,
+            2.547374960906311
+          ],
+          "num_observations": 16661,
+          "residual_rms_deg": 10.549355304134663
+        }
+      },
+      "3": {
+        "1": {
+          "station_id": "1",
+          "position_xy": [
+            10.07141710890517,
+            4.964983747238442
+          ],
+          "num_observations": 16661,
+          "residual_rms_deg": 11.18335422871305
+        },
+        "2": {
+          "station_id": "2",
+          "position_xy": [
+            54.945845258164724,
+            29.975417236598947
+          ],
+          "num_observations": 16661,
+          "residual_rms_deg": 7.085633466427136
+        },
+        "3": {
+          "station_id": "3",
+          "position_xy": [
+            85.15406732739513,
+            -4.9226166020896756
+          ],
+          "num_observations": 16661,
+          "residual_rms_deg": 11.707119432178029
+        }
+      }
+    }
+  },
+  "rf": {
+    "azimuth_sigma_power_law": {
+      "pooled": {
+        "a": 0.02093039736034184,
+        "b": 0.5392463474514978,
+        "r_squared": 0.8569476119008316,
+        "num_observations": 149949
+      },
+      "per_scenario": {
+        "scenario1": {
+          "a": 0.007930686910668859,
+          "b": 0.7819499581883668,
+          "r_squared": 0.9755467401874882,
+          "num_observations": 49983
+        },
+        "scenario2": {
+          "a": 0.01985512996892143,
+          "b": 0.5490919540655106,
+          "r_squared": 0.8893348376269781,
+          "num_observations": 49983
+        },
+        "scenario3": {
+          "a": 0.027379004316517835,
+          "b": 0.4720280640762344,
+          "r_squared": 0.8225047088175912,
+          "num_observations": 49983
+        }
+      },
+      "per_station": {
+        "scenario1_station1": {
+          "a": 0.005705039931272293,
+          "b": 0.8609940889726324,
+          "r_squared": 0.9821090268985816,
+          "num_observations": 16661
+        },
+        "scenario1_station2": {
+          "a": 0.016400993933164413,
+          "b": 0.5936636821232316,
+          "r_squared": 0.9582441300398745,
+          "num_observations": 16661
+        },
+        "scenario1_station3": {
+          "a": 0.007382083992044275,
+          "b": 0.8019532930424216,
+          "r_squared": 0.9897362862175533,
+          "num_observations": 16661
+        },
+        "scenario2_station1": {
+          "a": 0.0436920866125248,
+          "b": 0.31155332360213844,
+          "r_squared": 0.9260019307103516,
+          "num_observations": 16661
+        },
+        "scenario2_station2": {
+          "a": 0.007342337040826454,
+          "b": 0.7988482115240421,
+          "r_squared": 0.9635454693779639,
+          "num_observations": 16661
+        },
+        "scenario2_station3": {
+          "a": 0.00933677932450841,
+          "b": 0.7440178591182028,
+          "r_squared": 0.9799451336391037,
+          "num_observations": 16661
+        },
+        "scenario3_station1": {
+          "a": 0.0060515604611225595,
+          "b": 0.8476617003958509,
+          "r_squared": 0.9839964642599444,
+          "num_observations": 16661
+        },
+        "scenario3_station2": {
+          "a": 0.05479710922862579,
+          "b": 0.24496426771788143,
+          "r_squared": 0.8088780991768927,
+          "num_observations": 16661
+        },
+        "scenario3_station3": {
+          "a": 0.007177606920513754,
+          "b": 0.8076622194395525,
+          "r_squared": 0.9878693914249991,
+          "num_observations": 16661
+        }
+      }
+    },
+    "normalized_residual": {
+      "mean": 0.0009437118598842954,
+      "std": 1.002431891984878,
+      "coverage_1sigma": 0.6801779271619017,
+      "coverage_2sigma": 0.9536509079753783,
+      "coverage_3sigma": 0.9973057506218781,
+      "num_observations": 149949
+    },
+    "rate_hz_nominal": 833.0
+  },
+  "camera": {
+    "depth": {
+      "pooled": {
+        "a": 0.0019550997652366345,
+        "b": 2.0838267657856995,
+        "r_squared": 0.9997545958929465,
+        "num_observations": 4528
+      },
+      "per_scenario": {
+        "scenario1": {
+          "a": 0.002075900002007291,
+          "b": 2.069734533282556,
+          "r_squared": 0.9998103217135605,
+          "num_observations": 1649
+        },
+        "scenario2": {
+          "a": 0.0019278132887169722,
+          "b": 2.0869061998653806,
+          "r_squared": 0.9998303295963505,
+          "num_observations": 1418
+        },
+        "scenario3": {
+          "a": 0.0019185802986913456,
+          "b": 2.0884616040640718,
+          "r_squared": 0.9996848873338214,
+          "num_observations": 1461
+        }
+      },
+      "per_station": {
+        "scenario1_station1": {
+          "a": 0.0022370787944165052,
+          "b": 2.0531072880768595,
+          "r_squared": 0.9999710197489191,
+          "num_observations": 563
+        },
+        "scenario1_station2": {
+          "a": 0.0015826756558095208,
+          "b": 2.1357431509178846,
+          "r_squared": 0.9998409857996524,
+          "num_observations": 524
+        },
+        "scenario1_station3": {
+          "a": 0.002182554435592595,
+          "b": 2.057817389460652,
+          "r_squared": 0.9999820450630899,
+          "num_observations": 562
+        },
+        "scenario2_station1": {
+          "a": 0.0013225431300506931,
+          "b": 2.187202954932083,
+          "r_squared": 0.9997601613754815,
+          "num_observations": 351
+        },
+        "scenario2_station2": {
+          "a": 0.0022221384363452735,
+          "b": 2.0528922425311333,
+          "r_squared": 0.9998140049331542,
+          "num_observations": 539
+        },
+        "scenario2_station3": {
+          "a": 0.002044269595143653,
+          "b": 2.073296903581603,
+          "r_squared": 0.999987090479501,
+          "num_observations": 528
+        },
+        "scenario3_station1": {
+          "a": 0.0021841439648032247,
+          "b": 2.058588497854411,
+          "r_squared": 0.9999807796380723,
+          "num_observations": 549
+        },
+        "scenario3_station2": {
+          "a": 0.0012659156316338787,
+          "b": 2.1986421737809767,
+          "r_squared": 0.9999551716315268,
+          "num_observations": 348
+        },
+        "scenario3_station3": {
+          "a": 0.0022320157874337306,
+          "b": 2.0527627591886435,
+          "r_squared": 0.9999669065580755,
+          "num_observations": 564
+        }
+      }
+    },
+    "transverse_1": {
+      "pooled": {
+        "a": 0.00040295294042274433,
+        "b": 1.2813498536102246,
+        "r_squared": 0.6435011437941145,
+        "num_observations": 4528
+      },
+      "per_scenario": {
+        "scenario1": {
+          "a": 0.00047508214910923824,
+          "b": 1.2463849446951372,
+          "r_squared": 0.6179613096264871,
+          "num_observations": 1649
+        },
+        "scenario2": {
+          "a": 0.0004578926088024898,
+          "b": 1.2509783236356031,
+          "r_squared": 0.59064946670447,
+          "num_observations": 1418
+        },
+        "scenario3": {
+          "a": 0.000344125825407348,
+          "b": 1.313422866999188,
+          "r_squared": 0.6819505117628759,
+          "num_observations": 1461
+        }
+      },
+      "per_station": {
+        "scenario1_station1": {
+          "a": 0.0009626529450114834,
+          "b": 1.0673995817467274,
+          "r_squared": 0.42031383755687923,
+          "num_observations": 563
+        },
+        "scenario1_station2": {
+          "a": 1.444742541985672e-06,
+          "b": 2.7002510739749073,
+          "r_squared": 0.8219107804952681,
+          "num_observations": 524
+        },
+        "scenario1_station3": {
+          "a": 0.0004088618655398158,
+          "b": 1.2780182602029047,
+          "r_squared": 0.7452985596902495,
+          "num_observations": 562
+        },
+        "scenario2_station1": {
+          "a": 0.23993353570453535,
+          "b": -0.44163132817513623,
+          "r_squared": 0.009852636112952284,
+          "num_observations": 351
+        },
+        "scenario2_station2": {
+          "a": 0.0033761473356162565,
+          "b": 0.7837680167732979,
+          "r_squared": 0.2796039193325167,
+          "num_observations": 539
+        },
+        "scenario2_station3": {
+          "a": 0.00023166645884813776,
+          "b": 1.4066081001937547,
+          "r_squared": 0.8012097490133416,
+          "num_observations": 528
+        },
+        "scenario3_station1": {
+          "a": 0.0007260850324673985,
+          "b": 1.1307959233708256,
+          "r_squared": 0.5049877360675512,
+          "num_observations": 549
+        },
+        "scenario3_station2": {
+          "a": 0.0002934785773343033,
+          "b": 1.3474643355906164,
+          "r_squared": 0.16512540893425942,
+          "num_observations": 348
+        },
+        "scenario3_station3": {
+          "a": 0.00045969860895434336,
+          "b": 1.2544961599827569,
+          "r_squared": 0.7217742805059295,
+          "num_observations": 564
+        }
+      }
+    },
+    "transverse_2": {
+      "pooled": {
+        "a": 0.0001105444373060401,
+        "b": 1.902184013941993,
+        "r_squared": 0.761517780075969,
+        "num_observations": 4528
+      },
+      "per_scenario": {
+        "scenario1": {
+          "a": 0.000786255020974178,
+          "b": 1.4399702217539248,
+          "r_squared": 0.9209214308258221,
+          "num_observations": 1649
+        },
+        "scenario2": {
+          "a": 8.292271809937086e-05,
+          "b": 1.970262687739134,
+          "r_squared": 0.7432703971128691,
+          "num_observations": 1418
+        },
+        "scenario3": {
+          "a": 4.6662767379727804e-05,
+          "b": 2.105532974314995,
+          "r_squared": 0.7506321231430831,
+          "num_observations": 1461
+        }
+      },
+      "per_station": {
+        "scenario1_station1": {
+          "a": 0.0017580259370610317,
+          "b": 1.2597266128615952,
+          "r_squared": 0.9355541409291437,
+          "num_observations": 563
+        },
+        "scenario1_station2": {
+          "a": 3.3012895398295996e-05,
+          "b": 2.208484796552561,
+          "r_squared": 0.9244734344628887,
+          "num_observations": 524
+        },
+        "scenario1_station3": {
+          "a": 0.0015482195288207925,
+          "b": 1.2836286690965555,
+          "r_squared": 0.9740421929138681,
+          "num_observations": 562
+        },
+        "scenario2_station1": {
+          "a": 2.593949563988753e-10,
+          "b": 5.347159411358115,
+          "r_squared": 0.5466594862995364,
+          "num_observations": 351
+        },
+        "scenario2_station2": {
+          "a": 0.0012042041292482314,
+          "b": 1.3320180388756884,
+          "r_squared": 0.8662132163623002,
+          "num_observations": 539
+        },
+        "scenario2_station3": {
+          "a": 0.0008911944711669268,
+          "b": 1.4124061880103869,
+          "r_squared": 0.9769033720999882,
+          "num_observations": 528
+        },
+        "scenario3_station1": {
+          "a": 0.001478027676290165,
+          "b": 1.2991616964657842,
+          "r_squared": 0.9499527646040549,
+          "num_observations": 549
+        },
+        "scenario3_station2": {
+          "a": 2.547024014682006e-10,
+          "b": 5.33122274820298,
+          "r_squared": 0.7051477416700755,
+          "num_observations": 348
+        },
+        "scenario3_station3": {
+          "a": 0.0017568237681753647,
+          "b": 1.2551886553270823,
+          "r_squared": 0.9649596963819402,
+          "num_observations": 564
+        }
+      }
+    },
+    "alignment_error_deg": {
+      "median": 1.507906515650808,
+      "p90": 1.9571214658677722,
+      "p95": 2.1025921483324845
+    },
+    "nees": {
+      "mean": 4.259155090581064,
+      "median": 2.36951723167091,
+      "fraction_inside_95pct_bounds": 0.9169611307420494,
+      "quantiles": {
+        "5": 0.3363091631060707,
+        "25": 1.1724576515927168,
+        "50": 2.36951723167091,
+        "75": 4.164520819078028,
+        "90": 6.881151586705893,
+        "95": 9.339080083063307
+      }
+    },
+    "covariance_diagnostics": {
+      "max_symmetry_error": 0.0,
+      "min_eigenvalue": 1.4176344607369194e-05,
+      "max_eigenvalue": 830.5347610000007,
+      "median_condition_number": 20541.17544269262,
+      "min_log_determinant": -15.727471733911573
+    },
+    "frame_rate_hz_nominal": 30.0
+  },
+  "camera_visibility_sectors": {
+    "1": {
+      "1": {
+        "station_id": "1",
+        "boresight_direction_xyz": [
+          0.6404910812239458,
+          0.5657857842651389,
+          0.5192856836039894
+        ],
+        "half_angle_deg": 46.25129886954008,
+        "num_visible_samples": 563,
+        "window_start_s": 1.2666666666666666,
+        "window_end_s": 20.0
+      },
+      "2": {
+        "station_id": "2",
+        "boresight_direction_xyz": [
+          -0.03944285194772313,
+          0.7669229686269269,
+          0.6405258945762394
+        ],
+        "half_angle_deg": 46.73725573385712,
+        "num_visible_samples": 524,
+        "window_start_s": 0.8,
+        "window_end_s": 18.233333333333334
+      },
+      "3": {
+        "station_id": "3",
+        "boresight_direction_xyz": [
+          -0.622203806114436,
+          0.60160530754083,
+          0.500932607838033
+        ],
+        "half_angle_deg": 43.49881181810719,
+        "num_visible_samples": 562,
+        "window_start_s": 0.0,
+        "window_end_s": 18.7
+      }
+    },
+    "2": {
+      "1": {
+        "station_id": "1",
+        "boresight_direction_xyz": [
+          0.10282111652496963,
+          -0.44549745709700467,
+          0.8893592264752533
+        ],
+        "half_angle_deg": 47.7539038336605,
+        "num_visible_samples": 351,
+        "window_start_s": 4.966666666666667,
+        "window_end_s": 16.633333333333333
+      },
+      "2": {
+        "station_id": "2",
+        "boresight_direction_xyz": [
+          0.5905556547176142,
+          0.5671746711966028,
+          0.5740704756683411
+        ],
+        "half_angle_deg": 48.713941089873714,
+        "num_visible_samples": 539,
+        "window_start_s": 2.0666666666666664,
+        "window_end_s": 20.0
+      },
+      "3": {
+        "station_id": "3",
+        "boresight_direction_xyz": [
+          -0.5609858182283529,
+          0.6328577032933324,
+          0.5336534822606837
+        ],
+        "half_angle_deg": 44.662070638143014,
+        "num_visible_samples": 528,
+        "window_start_s": 0.0,
+        "window_end_s": 17.566666666666666
+      }
+    },
+    "3": {
+      "1": {
+        "station_id": "1",
+        "boresight_direction_xyz": [
+          0.6813014676706791,
+          0.497882947417469,
+          0.5366012307297409
+        ],
+        "half_angle_deg": 47.00627403094519,
+        "num_visible_samples": 549,
+        "window_start_s": 1.7333333333333334,
+        "window_end_s": 20.0
+      },
+      "2": {
+        "station_id": "2",
+        "boresight_direction_xyz": [
+          -0.30561169175199626,
+          0.36405826907522776,
+          0.8798085420035611
+        ],
+        "half_angle_deg": 50.63789058168944,
+        "num_visible_samples": 348,
+        "window_start_s": 2.8,
+        "window_end_s": 14.366666666666667
+      },
+      "3": {
+        "station_id": "3",
+        "boresight_direction_xyz": [
+          -0.5475406644930106,
+          0.6708378430652658,
+          0.5001757781401397
+        ],
+        "half_angle_deg": 44.243604638830014,
+        "num_visible_samples": 564,
+        "window_start_s": 0.0,
+        "window_end_s": 18.766666666666666
+      }
+    }
+  },
+  "camera_visibility_model": {
+    "type": "static_boresight_cone",
+    "note": "Half-angle remarkably consistent across the 9 scenario x station combinations (43.5-50.6 degrees) - the pooled MEAN value was used as the simulator's frozen parameter (boresight is per-station, defined in the scenario, not in this artifact).",
+    "half_angle_deg_pooled_mean": 46.611672359405134,
+    "half_angle_deg_pooled_std": 2.143066411451021,
+    "half_angle_deg_min": 43.49881181810719,
+    "half_angle_deg_max": 50.63789058168944
+  }
+}

@@ -1,0 +1,38 @@
+simulation:
+  scenario_id: sensor_informed_geometry_flanking_in_range
+  duration: 10.0
+  seed: 42
+  station_error_model:
+    type: sensor_informed_v1
+    calibration_profile: data/sensor_informed/artifacts/sensor_informed_v1.json
+uavs:
+- name: uav_1
+  initial_state:
+  - 14.59559
+  - 50.0
+  - 70.808819
+  - 7.080882
+  - 0.0
+  - 0.0
+stations:
+- id: A
+  position:
+  - 50.0
+  - 78.323528
+  frequency_hz: 35.0
+  position_std: 2.0
+  velocity_std: 0.5
+- id: B
+  position:
+  - 28.757354
+  - 21.676472
+  frequency_hz: 35.0
+  position_std: 2.0
+  velocity_std: 0.5
+- id: C
+  position:
+  - 71.242646
+  - 21.676472
+  frequency_hz: 35.0
+  position_std: 2.0
+  velocity_std: 0.5

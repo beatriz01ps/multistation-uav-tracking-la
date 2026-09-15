@@ -1,0 +1,38 @@
+# uav_curve performs a real S-turn (Coordinated Turn) while uav_straight_2 passes
+# within ~1m of it around t=9s - tests identity discrimination when one target maneuvers near another passing close by.
+
+simulation:
+  scenario_id: final_multi_uav_nonlinear
+  split: final
+  duration: 10.0
+  seed: 42
+
+uavs:
+  - name: uav_curve
+    initial_state: [-60.0, 20.0, 100.0, 12.0, 0.0, 0.0]
+    turn_schedule:
+      - duration_s: 3.0
+        omega: 0.3
+      - duration_s: 3.0
+        omega: -0.3
+  - name: uav_straight_1
+    initial_state: [70.0, 25.0, 100.0, -14.0, 0.0, 0.0]
+  - name: uav_straight_2
+    initial_state: [-70.0, -30.0, 100.0, 12.0, 9.0, 0.0]
+
+stations:
+  - id: A
+    position: [-70.0, -80.0]
+    frequency_hz: 60
+    position_std: 2.0
+    velocity_std: 0.5
+  - id: B
+    position: [0.0, -80.0]
+    frequency_hz: 35
+    position_std: 2.0
+    velocity_std: 0.5
+  - id: C
+    position: [70.0, -80.0]
+    frequency_hz: 20
+    position_std: 2.0
+    velocity_std: 0.5

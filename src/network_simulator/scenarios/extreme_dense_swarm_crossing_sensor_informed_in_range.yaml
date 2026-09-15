@@ -1,0 +1,92 @@
+simulation:
+  scenario_id: sensor_informed_extreme_dense_swarm_crossing_in_range
+  duration: 10.0
+  seed: 123
+  station_error_model:
+    type: sensor_informed_v1
+    calibration_profile: data/sensor_informed/artifacts/sensor_informed_v1.json
+uavs:
+- name: uav_n_to_s
+  initial_state:
+  - 3.841249
+  - 22.547108
+  - 40.713333
+  - 0.0
+  - -5.699867
+  - 0.0
+- name: uav_s_to_n
+  initial_state:
+  - 5.876916
+  - -34.451557
+  - 40.713333
+  - -0.407133
+  - 5.699867
+  - 0.0
+- name: uav_w_to_e
+  initial_state:
+  - -24.658083
+  - -7.987891
+  - 40.713333
+  - 5.699867
+  - 0.407133
+  - 0.0
+- name: uav_e_to_w_turning
+  initial_state:
+  - 32.340582
+  - -3.916558
+  - 40.713333
+  - -5.292733
+  - 0.0
+  - 0.0
+  turn_schedule:
+  - duration_s: 2.5
+    omega: 0.0
+  - duration_s: 5.0
+    omega: 0.45
+- name: uav_diag_turning
+  initial_state:
+  - -18.551084
+  - -28.344557
+  - 40.713333
+  - 4.478467
+  - 4.478467
+  - 0.0
+  turn_schedule:
+  - duration_s: 3.0
+    omega: 0.0
+  - duration_s: 5.0
+    omega: -0.4
+stations:
+- id: N
+  position:
+  - 3.841249
+  - 30.689775
+  frequency_hz: 50.0
+  position_std: 2.0
+  velocity_std: 0.6
+- id: SW
+  position:
+  - -32.80075
+  - -42.594224
+  frequency_hz: 50.0
+  position_std: 2.0
+  velocity_std: 0.6
+- id: SE
+  position:
+  - 40.483249
+  - -42.594224
+  frequency_hz: 35.0
+  position_std: 2.5
+  velocity_std: 0.7
+- id: NW
+  position:
+  - -32.80075
+  - 30.689775
+  frequency_hz: 35.0
+  position_std: 2.5
+  velocity_std: 0.7
+obstacles:
+- center:
+  - 3.841249
+  - -5.952224
+  radius: 4.071333

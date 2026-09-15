@@ -1,0 +1,33 @@
+# uav_1 and uav_2 cross exactly at (0,0) at t=5s with opposing velocities; uav_3
+# stays >65m from the crossing. Expected: 3 consistent GlobalTracks, no identity swap between uav_1/uav_2.
+
+simulation:
+  scenario_id: final_multi_uav_crossing
+  split: final
+  duration: 10.0
+  seed: 42
+
+uavs:
+  - name: uav_1
+    initial_state: [-60.0, -30.0, 100.0, 12.0, 6.0, 0.0]
+  - name: uav_2
+    initial_state: [60.0, 30.0, 100.0, -12.0, -6.0, 0.0]
+  - name: uav_3
+    initial_state: [40.0, -70.0, 100.0, -8.0, 0.0, 0.0]
+
+stations:
+  - id: A
+    position: [-70.0, -100.0]
+    frequency_hz: 60
+    position_std: 2.0
+    velocity_std: 0.5
+  - id: B
+    position: [0.0, -100.0]
+    frequency_hz: 35
+    position_std: 2.0
+    velocity_std: 0.5
+  - id: C
+    position: [70.0, -100.0]
+    frequency_hz: 20
+    position_std: 2.0
+    velocity_std: 0.5

@@ -1,0 +1,7246 @@
+{
+  "full_breakdown_per_scenario_gap_threshold": [
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 1,
+      "threshold_m": 1.0,
+      "method": [
+        "EXACT_NATIVE_RESOLUTION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 1,
+      "threshold_m": 2.0,
+      "method": [
+        "EXACT_NATIVE_RESOLUTION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 1,
+      "threshold_m": 5.0,
+      "method": [
+        "EXACT_NATIVE_RESOLUTION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 1,
+      "threshold_m": 10.0,
+      "method": [
+        "EXACT_NATIVE_RESOLUTION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 2,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 2,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 2,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 2,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 3,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 15,
+      "success_rate_over_evaluable": 0.75,
+      "success_rate_over_expected": 0.75
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 3,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 3,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 3,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 4,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 12,
+      "success_rate_over_evaluable": 0.6,
+      "success_rate_over_expected": 0.6
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 4,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 19,
+      "success_rate_over_evaluable": 0.95,
+      "success_rate_over_expected": 0.95
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 4,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 4,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 5,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 7,
+      "success_rate_over_evaluable": 0.35,
+      "success_rate_over_expected": 0.35
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 5,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 12,
+      "success_rate_over_evaluable": 0.6,
+      "success_rate_over_expected": 0.6
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 5,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 5,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 6,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 3,
+      "success_rate_over_evaluable": 0.15,
+      "success_rate_over_expected": 0.15
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 6,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 6,
+      "success_rate_over_evaluable": 0.3,
+      "success_rate_over_expected": 0.3
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 6,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 19,
+      "success_rate_over_evaluable": 0.95,
+      "success_rate_over_expected": 0.95
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 6,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 7,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 7,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 1,
+      "success_rate_over_evaluable": 0.05,
+      "success_rate_over_expected": 0.05
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 7,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 17,
+      "success_rate_over_evaluable": 0.85,
+      "success_rate_over_expected": 0.85
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 7,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 8,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 8,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 1,
+      "success_rate_over_evaluable": 0.05,
+      "success_rate_over_expected": 0.05
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 8,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 13,
+      "success_rate_over_evaluable": 0.65,
+      "success_rate_over_expected": 0.65
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 8,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 9,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 9,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 9,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 9,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 15,
+      "success_rate_over_evaluable": 0.75,
+      "success_rate_over_expected": 0.75
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 10,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 10,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 10,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 10,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 15,
+      "success_rate_over_evaluable": 0.75,
+      "success_rate_over_expected": 0.75
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 11,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 11,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 11,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 11,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 12,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 12,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 12,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 12,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 13,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 13,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 13,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 13,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 14,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 14,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 14,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 14,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 15,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 15,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 15,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 15,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 16,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 16,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 16,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 16,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 17,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 17,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 17,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 17,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 18,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 18,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 18,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 18,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 19,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 19,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 19,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 19,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 20,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 20,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 20,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 20,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 21,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 21,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 21,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 21,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 22,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 22,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 22,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 22,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 23,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 23,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 23,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 23,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 24,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 24,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 24,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 24,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 25,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 25,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 25,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 25,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 26,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 26,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 26,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 26,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 27,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 27,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 27,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 27,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 28,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 28,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 28,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 28,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 29,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 29,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 29,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 29,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 30,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 30,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 30,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 30,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 31,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 31,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 31,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 31,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 32,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 32,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 32,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_straight",
+      "gap": 32,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 1,
+      "threshold_m": 1.0,
+      "method": [
+        "EXACT_NATIVE_RESOLUTION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 1,
+      "threshold_m": 2.0,
+      "method": [
+        "EXACT_NATIVE_RESOLUTION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 1,
+      "threshold_m": 5.0,
+      "method": [
+        "EXACT_NATIVE_RESOLUTION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 1,
+      "threshold_m": 10.0,
+      "method": [
+        "EXACT_NATIVE_RESOLUTION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 2,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 2,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 2,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 2,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 3,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 13,
+      "success_rate_over_evaluable": 0.65,
+      "success_rate_over_expected": 0.65
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 3,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 3,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 3,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 4,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 7,
+      "success_rate_over_evaluable": 0.35,
+      "success_rate_over_expected": 0.35
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 4,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 17,
+      "success_rate_over_evaluable": 0.85,
+      "success_rate_over_expected": 0.85
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 4,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 4,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 5,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 5,
+      "success_rate_over_evaluable": 0.25,
+      "success_rate_over_expected": 0.25
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 5,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 13,
+      "success_rate_over_evaluable": 0.65,
+      "success_rate_over_expected": 0.65
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 5,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 5,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 6,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 6,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 5,
+      "success_rate_over_evaluable": 0.25,
+      "success_rate_over_expected": 0.25
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 6,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 6,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 7,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 7,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 7,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 14,
+      "success_rate_over_evaluable": 0.7,
+      "success_rate_over_expected": 0.7
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 7,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 8,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 8,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 8,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 9,
+      "success_rate_over_evaluable": 0.45,
+      "success_rate_over_expected": 0.45
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 8,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 9,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 9,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 9,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 1,
+      "success_rate_over_evaluable": 0.05,
+      "success_rate_over_expected": 0.05
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 9,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 18,
+      "success_rate_over_evaluable": 0.9,
+      "success_rate_over_expected": 0.9
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 10,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 10,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 10,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 10,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 10,
+      "success_rate_over_evaluable": 0.5,
+      "success_rate_over_expected": 0.5
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 11,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 11,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 11,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 11,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 12,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 12,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 12,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 12,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 13,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 13,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 13,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 13,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 14,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 14,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 14,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 14,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 15,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 15,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 15,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 15,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 16,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 16,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 16,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 16,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 17,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 17,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 17,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 17,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 18,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 18,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 18,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 18,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 19,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 19,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 19,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 19,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 20,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 20,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 20,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 20,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 21,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 21,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 21,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 21,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 22,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 22,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 22,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 22,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 23,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 23,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 23,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 23,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 24,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 24,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 24,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 24,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 25,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 25,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 25,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 25,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 26,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 26,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 26,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 26,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 27,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 27,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 27,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 27,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 28,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 28,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 28,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 28,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 29,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 29,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 29,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 29,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 30,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 30,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 30,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 30,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 31,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 31,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 31,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 31,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 32,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 32,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 32,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_1uav_maneuver",
+      "gap": 32,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 1,
+      "threshold_m": 1.0,
+      "method": [
+        "EXACT_NATIVE_RESOLUTION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 1,
+      "threshold_m": 2.0,
+      "method": [
+        "EXACT_NATIVE_RESOLUTION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 1,
+      "threshold_m": 5.0,
+      "method": [
+        "EXACT_NATIVE_RESOLUTION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 1,
+      "threshold_m": 10.0,
+      "method": [
+        "EXACT_NATIVE_RESOLUTION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 2,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 2,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 2,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 2,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 3,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 17,
+      "success_rate_over_evaluable": 0.85,
+      "success_rate_over_expected": 0.85
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 3,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 19,
+      "success_rate_over_evaluable": 0.95,
+      "success_rate_over_expected": 0.95
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 3,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 3,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 4,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 11,
+      "success_rate_over_evaluable": 0.55,
+      "success_rate_over_expected": 0.55
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 4,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 18,
+      "success_rate_over_evaluable": 0.9,
+      "success_rate_over_expected": 0.9
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 4,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 4,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 5,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 8,
+      "success_rate_over_evaluable": 0.4,
+      "success_rate_over_expected": 0.4
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 5,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 16,
+      "success_rate_over_evaluable": 0.8,
+      "success_rate_over_expected": 0.8
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 5,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 5,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 6,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 1,
+      "success_rate_over_evaluable": 0.05,
+      "success_rate_over_expected": 0.05
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 6,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 7,
+      "success_rate_over_evaluable": 0.35,
+      "success_rate_over_expected": 0.35
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 6,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 6,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 7,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 7,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 1,
+      "success_rate_over_evaluable": 0.05,
+      "success_rate_over_expected": 0.05
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 7,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 18,
+      "success_rate_over_evaluable": 0.9,
+      "success_rate_over_expected": 0.9
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 7,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 19,
+      "success_rate_over_evaluable": 0.95,
+      "success_rate_over_expected": 0.95
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 8,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 8,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 8,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 8,
+      "success_rate_over_evaluable": 0.4,
+      "success_rate_over_expected": 0.4
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 8,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 9,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 9,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 9,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 7,
+      "success_rate_over_evaluable": 0.35,
+      "success_rate_over_expected": 0.35
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 9,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 18,
+      "success_rate_over_evaluable": 0.9,
+      "success_rate_over_expected": 0.9
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 10,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 10,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 10,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 10,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 16,
+      "success_rate_over_evaluable": 0.8,
+      "success_rate_over_expected": 0.8
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 11,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 11,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 11,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 1,
+      "success_rate_over_evaluable": 0.05,
+      "success_rate_over_expected": 0.05
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 11,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 6,
+      "success_rate_over_evaluable": 0.3,
+      "success_rate_over_expected": 0.3
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 12,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 12,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 12,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 12,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 13,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 13,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 13,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 13,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 14,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 14,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 14,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 14,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 15,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 15,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 15,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 15,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 16,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 16,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 16,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 16,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 17,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 17,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 17,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 17,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 18,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 18,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 18,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 18,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 19,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 19,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 19,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 19,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 20,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 20,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 20,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 20,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 21,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 21,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 21,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 21,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 22,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 22,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 22,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 22,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 23,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 23,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 23,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 23,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 24,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 24,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 24,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 24,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 25,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 25,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 25,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 25,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 26,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 26,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 26,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 26,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 27,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 27,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 27,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 27,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 28,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 28,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 28,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 28,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 29,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 29,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 29,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 29,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 30,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 30,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 30,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 30,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 31,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 31,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 31,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 31,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 32,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 32,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 32,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_2uav_crossing",
+      "gap": 32,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_5uav_dense_crossing",
+      "gap": 1,
+      "threshold_m": 1.0,
+      "method": [
+        "EXACT_NATIVE_RESOLUTION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 19,
+      "success_rate_over_evaluable": 0.95,
+      "success_rate_over_expected": 0.95
+    },
+    {
+      "scenario": "gap_horizon_5uav_dense_crossing",
+      "gap": 1,
+      "threshold_m": 2.0,
+      "method": [
+        "EXACT_NATIVE_RESOLUTION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 19,
+      "success_rate_over_evaluable": 0.95,
+      "success_rate_over_expected": 0.95
+    },
+    {
+      "scenario": "gap_horizon_5uav_dense_crossing",
+      "gap": 1,
+      "threshold_m": 5.0,
+      "method": [
+        "EXACT_NATIVE_RESOLUTION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_5uav_dense_crossing",
+      "gap": 1,
+      "threshold_m": 10.0,
+      "method": [
+        "EXACT_NATIVE_RESOLUTION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_5uav_dense_crossing",
+      "gap": 2,
+      "threshold_m": 1.0,
+      "method": [
+        "EXACT_NATIVE_RESOLUTION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 19,
+      "success_rate_over_evaluable": 0.95,
+      "success_rate_over_expected": 0.95
+    },
+    {
+      "scenario": "gap_horizon_5uav_dense_crossing",
+      "gap": 2,
+      "threshold_m": 2.0,
+      "method": [
+        "EXACT_NATIVE_RESOLUTION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 19,
+      "success_rate_over_evaluable": 0.95,
+      "success_rate_over_expected": 0.95
+    },
+    {
+      "scenario": "gap_horizon_5uav_dense_crossing",
+      "gap": 2,
+      "threshold_m": 5.0,
+      "method": [
+        "EXACT_NATIVE_RESOLUTION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 19,
+      "success_rate_over_evaluable": 0.95,
+      "success_rate_over_expected": 0.95
+    },
+    {
+      "scenario": "gap_horizon_5uav_dense_crossing",
+      "gap": 2,
+      "threshold_m": 10.0,
+      "method": [
+        "EXACT_NATIVE_RESOLUTION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_5uav_dense_crossing",
+      "gap": 3,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 17,
+      "success_rate_over_evaluable": 0.85,
+      "success_rate_over_expected": 0.85
+    },
+    {
+      "scenario": "gap_horizon_5uav_dense_crossing",
+      "gap": 3,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_5uav_dense_crossing",
+      "gap": 3,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_5uav_dense_crossing",
+      "gap": 3,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_5uav_dense_crossing",
+      "gap": 4,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 16,
+      "success_rate_over_evaluable": 0.8,
+      "success_rate_over_expected": 0.8
+    },
+    {
+      "scenario": "gap_horizon_5uav_dense_crossing",
+      "gap": 4,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 19,
+      "success_rate_over_evaluable": 0.95,
+      "success_rate_over_expected": 0.95
+    },
+    {
+      "scenario": "gap_horizon_5uav_dense_crossing",
+      "gap": 4,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_5uav_dense_crossing",
+      "gap": 4,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_5uav_dense_crossing",
+      "gap": 5,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 8,
+      "success_rate_over_evaluable": 0.4,
+      "success_rate_over_expected": 0.4
+    },
+    {
+      "scenario": "gap_horizon_5uav_dense_crossing",
+      "gap": 5,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_5uav_dense_crossing",
+      "gap": 5,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_5uav_dense_crossing",
+      "gap": 5,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 20,
+      "success_rate_over_evaluable": 1.0,
+      "success_rate_over_expected": 1.0
+    },
+    {
+      "scenario": "gap_horizon_5uav_dense_crossing",
+      "gap": 10,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_5uav_dense_crossing",
+      "gap": 10,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_5uav_dense_crossing",
+      "gap": 10,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 8,
+      "success_rate_over_evaluable": 0.4,
+      "success_rate_over_expected": 0.4
+    },
+    {
+      "scenario": "gap_horizon_5uav_dense_crossing",
+      "gap": 10,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 17,
+      "success_rate_over_evaluable": 0.85,
+      "success_rate_over_expected": 0.85
+    },
+    {
+      "scenario": "gap_horizon_5uav_dense_crossing",
+      "gap": 20,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_5uav_dense_crossing",
+      "gap": 20,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_5uav_dense_crossing",
+      "gap": 20,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_5uav_dense_crossing",
+      "gap": 20,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_5uav_dense_crossing",
+      "gap": 32,
+      "threshold_m": 1.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_5uav_dense_crossing",
+      "gap": 32,
+      "threshold_m": 2.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_5uav_dense_crossing",
+      "gap": 32,
+      "threshold_m": 5.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    },
+    {
+      "scenario": "gap_horizon_5uav_dense_crossing",
+      "gap": 32,
+      "threshold_m": 10.0,
+      "method": [
+        "POINTWISE_1S_BUCKET_APPROXIMATION"
+      ],
+      "N_expected": 20,
+      "N_no_pre_gap_track": 0,
+      "N_insufficient_resolution": 0,
+      "N_evaluable": 20,
+      "N_success": 0,
+      "success_rate_over_evaluable": 0.0,
+      "success_rate_over_expected": 0.0
+    }
+  ],
+  "H_precision_canonical_table": {
+    "gap_horizon_1uav_straight": {
+      "H_1m": {
+        "rate_by_gap": {
+          "1": 1.0,
+          "2": 1.0,
+          "3": 0.75,
+          "4": 0.6,
+          "5": 0.35,
+          "6": 0.15,
+          "7": 0.0,
+          "8": 0.0,
+          "9": 0.0,
+          "10": 0.0,
+          "11": 0.0,
+          "12": 0.0,
+          "13": 0.0,
+          "14": 0.0,
+          "15": 0.0,
+          "16": 0.0,
+          "17": 0.0,
+          "18": 0.0,
+          "19": 0.0,
+          "20": 0.0,
+          "21": 0.0,
+          "22": 0.0,
+          "23": 0.0,
+          "24": 0.0,
+          "25": 0.0,
+          "26": 0.0,
+          "27": 0.0,
+          "28": 0.0,
+          "29": 0.0,
+          "30": 0.0,
+          "31": 0.0,
+          "32": 0.0
+        },
+        "n_evaluable_by_gap": {
+          "1": 20,
+          "2": 20,
+          "3": 20,
+          "4": 20,
+          "5": 20,
+          "6": 20,
+          "7": 20,
+          "8": 20,
+          "9": 20,
+          "10": 20,
+          "11": 20,
+          "12": 20,
+          "13": 20,
+          "14": 20,
+          "15": 20,
+          "16": 20,
+          "17": 20,
+          "18": 20,
+          "19": 20,
+          "20": 20,
+          "21": 20,
+          "22": 20,
+          "23": 20,
+          "24": 20,
+          "25": 20,
+          "26": 20,
+          "27": 20,
+          "28": 20,
+          "29": 20,
+          "30": 20,
+          "31": 20,
+          "32": 20
+        },
+        "all_points_N20": true,
+        "H_95": 2,
+        "H_90": 2,
+        "H_50": 4
+      },
+      "H_2m": {
+        "rate_by_gap": {
+          "1": 1.0,
+          "2": 1.0,
+          "3": 1.0,
+          "4": 0.95,
+          "5": 0.6,
+          "6": 0.3,
+          "7": 0.05,
+          "8": 0.05,
+          "9": 0.0,
+          "10": 0.0,
+          "11": 0.0,
+          "12": 0.0,
+          "13": 0.0,
+          "14": 0.0,
+          "15": 0.0,
+          "16": 0.0,
+          "17": 0.0,
+          "18": 0.0,
+          "19": 0.0,
+          "20": 0.0,
+          "21": 0.0,
+          "22": 0.0,
+          "23": 0.0,
+          "24": 0.0,
+          "25": 0.0,
+          "26": 0.0,
+          "27": 0.0,
+          "28": 0.0,
+          "29": 0.0,
+          "30": 0.0,
+          "31": 0.0,
+          "32": 0.0
+        },
+        "n_evaluable_by_gap": {
+          "1": 20,
+          "2": 20,
+          "3": 20,
+          "4": 20,
+          "5": 20,
+          "6": 20,
+          "7": 20,
+          "8": 20,
+          "9": 20,
+          "10": 20,
+          "11": 20,
+          "12": 20,
+          "13": 20,
+          "14": 20,
+          "15": 20,
+          "16": 20,
+          "17": 20,
+          "18": 20,
+          "19": 20,
+          "20": 20,
+          "21": 20,
+          "22": 20,
+          "23": 20,
+          "24": 20,
+          "25": 20,
+          "26": 20,
+          "27": 20,
+          "28": 20,
+          "29": 20,
+          "30": 20,
+          "31": 20,
+          "32": 20
+        },
+        "all_points_N20": true,
+        "H_95": 4,
+        "H_90": 4,
+        "H_50": 5
+      },
+      "H_5m": {
+        "rate_by_gap": {
+          "1": 1.0,
+          "2": 1.0,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 0.95,
+          "7": 0.85,
+          "8": 0.65,
+          "9": 0.0,
+          "10": 0.0,
+          "11": 0.0,
+          "12": 0.0,
+          "13": 0.0,
+          "14": 0.0,
+          "15": 0.0,
+          "16": 0.0,
+          "17": 0.0,
+          "18": 0.0,
+          "19": 0.0,
+          "20": 0.0,
+          "21": 0.0,
+          "22": 0.0,
+          "23": 0.0,
+          "24": 0.0,
+          "25": 0.0,
+          "26": 0.0,
+          "27": 0.0,
+          "28": 0.0,
+          "29": 0.0,
+          "30": 0.0,
+          "31": 0.0,
+          "32": 0.0
+        },
+        "n_evaluable_by_gap": {
+          "1": 20,
+          "2": 20,
+          "3": 20,
+          "4": 20,
+          "5": 20,
+          "6": 20,
+          "7": 20,
+          "8": 20,
+          "9": 20,
+          "10": 20,
+          "11": 20,
+          "12": 20,
+          "13": 20,
+          "14": 20,
+          "15": 20,
+          "16": 20,
+          "17": 20,
+          "18": 20,
+          "19": 20,
+          "20": 20,
+          "21": 20,
+          "22": 20,
+          "23": 20,
+          "24": 20,
+          "25": 20,
+          "26": 20,
+          "27": 20,
+          "28": 20,
+          "29": 20,
+          "30": 20,
+          "31": 20,
+          "32": 20
+        },
+        "all_points_N20": true,
+        "H_95": 6,
+        "H_90": 6,
+        "H_50": 8
+      },
+      "H_10m": {
+        "rate_by_gap": {
+          "1": 1.0,
+          "2": 1.0,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 1.0,
+          "7": 1.0,
+          "8": 1.0,
+          "9": 0.75,
+          "10": 0.75,
+          "11": 0.0,
+          "12": 0.0,
+          "13": 0.0,
+          "14": 0.0,
+          "15": 0.0,
+          "16": 0.0,
+          "17": 0.0,
+          "18": 0.0,
+          "19": 0.0,
+          "20": 0.0,
+          "21": 0.0,
+          "22": 0.0,
+          "23": 0.0,
+          "24": 0.0,
+          "25": 0.0,
+          "26": 0.0,
+          "27": 0.0,
+          "28": 0.0,
+          "29": 0.0,
+          "30": 0.0,
+          "31": 0.0,
+          "32": 0.0
+        },
+        "n_evaluable_by_gap": {
+          "1": 20,
+          "2": 20,
+          "3": 20,
+          "4": 20,
+          "5": 20,
+          "6": 20,
+          "7": 20,
+          "8": 20,
+          "9": 20,
+          "10": 20,
+          "11": 20,
+          "12": 20,
+          "13": 20,
+          "14": 20,
+          "15": 20,
+          "16": 20,
+          "17": 20,
+          "18": 20,
+          "19": 20,
+          "20": 20,
+          "21": 20,
+          "22": 20,
+          "23": 20,
+          "24": 20,
+          "25": 20,
+          "26": 20,
+          "27": 20,
+          "28": 20,
+          "29": 20,
+          "30": 20,
+          "31": 20,
+          "32": 20
+        },
+        "all_points_N20": true,
+        "H_95": 8,
+        "H_90": 8,
+        "H_50": 10
+      }
+    },
+    "gap_horizon_1uav_maneuver": {
+      "H_1m": {
+        "rate_by_gap": {
+          "1": 1.0,
+          "2": 1.0,
+          "3": 0.65,
+          "4": 0.35,
+          "5": 0.25,
+          "6": 0.0,
+          "7": 0.0,
+          "8": 0.0,
+          "9": 0.0,
+          "10": 0.0,
+          "11": 0.0,
+          "12": 0.0,
+          "13": 0.0,
+          "14": 0.0,
+          "15": 0.0,
+          "16": 0.0,
+          "17": 0.0,
+          "18": 0.0,
+          "19": 0.0,
+          "20": 0.0,
+          "21": 0.0,
+          "22": 0.0,
+          "23": 0.0,
+          "24": 0.0,
+          "25": 0.0,
+          "26": 0.0,
+          "27": 0.0,
+          "28": 0.0,
+          "29": 0.0,
+          "30": 0.0,
+          "31": 0.0,
+          "32": 0.0
+        },
+        "n_evaluable_by_gap": {
+          "1": 20,
+          "2": 20,
+          "3": 20,
+          "4": 20,
+          "5": 20,
+          "6": 20,
+          "7": 20,
+          "8": 20,
+          "9": 20,
+          "10": 20,
+          "11": 20,
+          "12": 20,
+          "13": 20,
+          "14": 20,
+          "15": 20,
+          "16": 20,
+          "17": 20,
+          "18": 20,
+          "19": 20,
+          "20": 20,
+          "21": 20,
+          "22": 20,
+          "23": 20,
+          "24": 20,
+          "25": 20,
+          "26": 20,
+          "27": 20,
+          "28": 20,
+          "29": 20,
+          "30": 20,
+          "31": 20,
+          "32": 20
+        },
+        "all_points_N20": true,
+        "H_95": 2,
+        "H_90": 2,
+        "H_50": 3
+      },
+      "H_2m": {
+        "rate_by_gap": {
+          "1": 1.0,
+          "2": 1.0,
+          "3": 1.0,
+          "4": 0.85,
+          "5": 0.65,
+          "6": 0.25,
+          "7": 0.0,
+          "8": 0.0,
+          "9": 0.0,
+          "10": 0.0,
+          "11": 0.0,
+          "12": 0.0,
+          "13": 0.0,
+          "14": 0.0,
+          "15": 0.0,
+          "16": 0.0,
+          "17": 0.0,
+          "18": 0.0,
+          "19": 0.0,
+          "20": 0.0,
+          "21": 0.0,
+          "22": 0.0,
+          "23": 0.0,
+          "24": 0.0,
+          "25": 0.0,
+          "26": 0.0,
+          "27": 0.0,
+          "28": 0.0,
+          "29": 0.0,
+          "30": 0.0,
+          "31": 0.0,
+          "32": 0.0
+        },
+        "n_evaluable_by_gap": {
+          "1": 20,
+          "2": 20,
+          "3": 20,
+          "4": 20,
+          "5": 20,
+          "6": 20,
+          "7": 20,
+          "8": 20,
+          "9": 20,
+          "10": 20,
+          "11": 20,
+          "12": 20,
+          "13": 20,
+          "14": 20,
+          "15": 20,
+          "16": 20,
+          "17": 20,
+          "18": 20,
+          "19": 20,
+          "20": 20,
+          "21": 20,
+          "22": 20,
+          "23": 20,
+          "24": 20,
+          "25": 20,
+          "26": 20,
+          "27": 20,
+          "28": 20,
+          "29": 20,
+          "30": 20,
+          "31": 20,
+          "32": 20
+        },
+        "all_points_N20": true,
+        "H_95": 3,
+        "H_90": 3,
+        "H_50": 5
+      },
+      "H_5m": {
+        "rate_by_gap": {
+          "1": 1.0,
+          "2": 1.0,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 1.0,
+          "7": 0.7,
+          "8": 0.45,
+          "9": 0.05,
+          "10": 0.0,
+          "11": 0.0,
+          "12": 0.0,
+          "13": 0.0,
+          "14": 0.0,
+          "15": 0.0,
+          "16": 0.0,
+          "17": 0.0,
+          "18": 0.0,
+          "19": 0.0,
+          "20": 0.0,
+          "21": 0.0,
+          "22": 0.0,
+          "23": 0.0,
+          "24": 0.0,
+          "25": 0.0,
+          "26": 0.0,
+          "27": 0.0,
+          "28": 0.0,
+          "29": 0.0,
+          "30": 0.0,
+          "31": 0.0,
+          "32": 0.0
+        },
+        "n_evaluable_by_gap": {
+          "1": 20,
+          "2": 20,
+          "3": 20,
+          "4": 20,
+          "5": 20,
+          "6": 20,
+          "7": 20,
+          "8": 20,
+          "9": 20,
+          "10": 20,
+          "11": 20,
+          "12": 20,
+          "13": 20,
+          "14": 20,
+          "15": 20,
+          "16": 20,
+          "17": 20,
+          "18": 20,
+          "19": 20,
+          "20": 20,
+          "21": 20,
+          "22": 20,
+          "23": 20,
+          "24": 20,
+          "25": 20,
+          "26": 20,
+          "27": 20,
+          "28": 20,
+          "29": 20,
+          "30": 20,
+          "31": 20,
+          "32": 20
+        },
+        "all_points_N20": true,
+        "H_95": 6,
+        "H_90": 6,
+        "H_50": 7
+      },
+      "H_10m": {
+        "rate_by_gap": {
+          "1": 1.0,
+          "2": 1.0,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 1.0,
+          "7": 1.0,
+          "8": 1.0,
+          "9": 0.9,
+          "10": 0.5,
+          "11": 0.0,
+          "12": 0.0,
+          "13": 0.0,
+          "14": 0.0,
+          "15": 0.0,
+          "16": 0.0,
+          "17": 0.0,
+          "18": 0.0,
+          "19": 0.0,
+          "20": 0.0,
+          "21": 0.0,
+          "22": 0.0,
+          "23": 0.0,
+          "24": 0.0,
+          "25": 0.0,
+          "26": 0.0,
+          "27": 0.0,
+          "28": 0.0,
+          "29": 0.0,
+          "30": 0.0,
+          "31": 0.0,
+          "32": 0.0
+        },
+        "n_evaluable_by_gap": {
+          "1": 20,
+          "2": 20,
+          "3": 20,
+          "4": 20,
+          "5": 20,
+          "6": 20,
+          "7": 20,
+          "8": 20,
+          "9": 20,
+          "10": 20,
+          "11": 20,
+          "12": 20,
+          "13": 20,
+          "14": 20,
+          "15": 20,
+          "16": 20,
+          "17": 20,
+          "18": 20,
+          "19": 20,
+          "20": 20,
+          "21": 20,
+          "22": 20,
+          "23": 20,
+          "24": 20,
+          "25": 20,
+          "26": 20,
+          "27": 20,
+          "28": 20,
+          "29": 20,
+          "30": 20,
+          "31": 20,
+          "32": 20
+        },
+        "all_points_N20": true,
+        "H_95": 8,
+        "H_90": 9,
+        "H_50": 10
+      }
+    },
+    "gap_horizon_2uav_crossing": {
+      "H_1m": {
+        "rate_by_gap": {
+          "1": 1.0,
+          "2": 1.0,
+          "3": 0.85,
+          "4": 0.55,
+          "5": 0.4,
+          "6": 0.05,
+          "7": 0.0,
+          "8": 0.0,
+          "9": 0.0,
+          "10": 0.0,
+          "11": 0.0,
+          "12": 0.0,
+          "13": 0.0,
+          "14": 0.0,
+          "15": 0.0,
+          "16": 0.0,
+          "17": 0.0,
+          "18": 0.0,
+          "19": 0.0,
+          "20": 0.0,
+          "21": 0.0,
+          "22": 0.0,
+          "23": 0.0,
+          "24": 0.0,
+          "25": 0.0,
+          "26": 0.0,
+          "27": 0.0,
+          "28": 0.0,
+          "29": 0.0,
+          "30": 0.0,
+          "31": 0.0,
+          "32": 0.0
+        },
+        "n_evaluable_by_gap": {
+          "1": 20,
+          "2": 20,
+          "3": 20,
+          "4": 20,
+          "5": 20,
+          "6": 20,
+          "7": 20,
+          "8": 20,
+          "9": 20,
+          "10": 20,
+          "11": 20,
+          "12": 20,
+          "13": 20,
+          "14": 20,
+          "15": 20,
+          "16": 20,
+          "17": 20,
+          "18": 20,
+          "19": 20,
+          "20": 20,
+          "21": 20,
+          "22": 20,
+          "23": 20,
+          "24": 20,
+          "25": 20,
+          "26": 20,
+          "27": 20,
+          "28": 20,
+          "29": 20,
+          "30": 20,
+          "31": 20,
+          "32": 20
+        },
+        "all_points_N20": true,
+        "H_95": 2,
+        "H_90": 2,
+        "H_50": 4
+      },
+      "H_2m": {
+        "rate_by_gap": {
+          "1": 1.0,
+          "2": 1.0,
+          "3": 0.95,
+          "4": 0.9,
+          "5": 0.8,
+          "6": 0.35,
+          "7": 0.05,
+          "8": 0.0,
+          "9": 0.0,
+          "10": 0.0,
+          "11": 0.0,
+          "12": 0.0,
+          "13": 0.0,
+          "14": 0.0,
+          "15": 0.0,
+          "16": 0.0,
+          "17": 0.0,
+          "18": 0.0,
+          "19": 0.0,
+          "20": 0.0,
+          "21": 0.0,
+          "22": 0.0,
+          "23": 0.0,
+          "24": 0.0,
+          "25": 0.0,
+          "26": 0.0,
+          "27": 0.0,
+          "28": 0.0,
+          "29": 0.0,
+          "30": 0.0,
+          "31": 0.0,
+          "32": 0.0
+        },
+        "n_evaluable_by_gap": {
+          "1": 20,
+          "2": 20,
+          "3": 20,
+          "4": 20,
+          "5": 20,
+          "6": 20,
+          "7": 20,
+          "8": 20,
+          "9": 20,
+          "10": 20,
+          "11": 20,
+          "12": 20,
+          "13": 20,
+          "14": 20,
+          "15": 20,
+          "16": 20,
+          "17": 20,
+          "18": 20,
+          "19": 20,
+          "20": 20,
+          "21": 20,
+          "22": 20,
+          "23": 20,
+          "24": 20,
+          "25": 20,
+          "26": 20,
+          "27": 20,
+          "28": 20,
+          "29": 20,
+          "30": 20,
+          "31": 20,
+          "32": 20
+        },
+        "all_points_N20": true,
+        "H_95": 3,
+        "H_90": 4,
+        "H_50": 5
+      },
+      "H_5m": {
+        "rate_by_gap": {
+          "1": 1.0,
+          "2": 1.0,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 1.0,
+          "7": 0.9,
+          "8": 0.4,
+          "9": 0.35,
+          "10": 0.0,
+          "11": 0.05,
+          "12": 0.0,
+          "13": 0.0,
+          "14": 0.0,
+          "15": 0.0,
+          "16": 0.0,
+          "17": 0.0,
+          "18": 0.0,
+          "19": 0.0,
+          "20": 0.0,
+          "21": 0.0,
+          "22": 0.0,
+          "23": 0.0,
+          "24": 0.0,
+          "25": 0.0,
+          "26": 0.0,
+          "27": 0.0,
+          "28": 0.0,
+          "29": 0.0,
+          "30": 0.0,
+          "31": 0.0,
+          "32": 0.0
+        },
+        "n_evaluable_by_gap": {
+          "1": 20,
+          "2": 20,
+          "3": 20,
+          "4": 20,
+          "5": 20,
+          "6": 20,
+          "7": 20,
+          "8": 20,
+          "9": 20,
+          "10": 20,
+          "11": 20,
+          "12": 20,
+          "13": 20,
+          "14": 20,
+          "15": 20,
+          "16": 20,
+          "17": 20,
+          "18": 20,
+          "19": 20,
+          "20": 20,
+          "21": 20,
+          "22": 20,
+          "23": 20,
+          "24": 20,
+          "25": 20,
+          "26": 20,
+          "27": 20,
+          "28": 20,
+          "29": 20,
+          "30": 20,
+          "31": 20,
+          "32": 20
+        },
+        "all_points_N20": true,
+        "H_95": 6,
+        "H_90": 7,
+        "H_50": 7
+      },
+      "H_10m": {
+        "rate_by_gap": {
+          "1": 1.0,
+          "2": 1.0,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 1.0,
+          "7": 0.95,
+          "8": 1.0,
+          "9": 0.9,
+          "10": 0.8,
+          "11": 0.3,
+          "12": 0.0,
+          "13": 0.0,
+          "14": 0.0,
+          "15": 0.0,
+          "16": 0.0,
+          "17": 0.0,
+          "18": 0.0,
+          "19": 0.0,
+          "20": 0.0,
+          "21": 0.0,
+          "22": 0.0,
+          "23": 0.0,
+          "24": 0.0,
+          "25": 0.0,
+          "26": 0.0,
+          "27": 0.0,
+          "28": 0.0,
+          "29": 0.0,
+          "30": 0.0,
+          "31": 0.0,
+          "32": 0.0
+        },
+        "n_evaluable_by_gap": {
+          "1": 20,
+          "2": 20,
+          "3": 20,
+          "4": 20,
+          "5": 20,
+          "6": 20,
+          "7": 20,
+          "8": 20,
+          "9": 20,
+          "10": 20,
+          "11": 20,
+          "12": 20,
+          "13": 20,
+          "14": 20,
+          "15": 20,
+          "16": 20,
+          "17": 20,
+          "18": 20,
+          "19": 20,
+          "20": 20,
+          "21": 20,
+          "22": 20,
+          "23": 20,
+          "24": 20,
+          "25": 20,
+          "26": 20,
+          "27": 20,
+          "28": 20,
+          "29": 20,
+          "30": 20,
+          "31": 20,
+          "32": 20
+        },
+        "all_points_N20": true,
+        "H_95": 8,
+        "H_90": 9,
+        "H_50": 10
+      }
+    },
+    "gap_horizon_5uav_dense_crossing": {
+      "H_1m": {
+        "rate_by_gap": {
+          "1": 0.95,
+          "2": 0.95,
+          "3": 0.85,
+          "4": 0.8,
+          "5": 0.4,
+          "10": 0.0,
+          "20": 0.0,
+          "32": 0.0
+        },
+        "n_evaluable_by_gap": {
+          "1": 20,
+          "2": 20,
+          "3": 20,
+          "4": 20,
+          "5": 20,
+          "10": 20,
+          "20": 20,
+          "32": 20
+        },
+        "all_points_N20": true,
+        "H_95": 2,
+        "H_90": 2,
+        "H_50": 4
+      },
+      "H_2m": {
+        "rate_by_gap": {
+          "1": 0.95,
+          "2": 0.95,
+          "3": 1.0,
+          "4": 0.95,
+          "5": 1.0,
+          "10": 0.0,
+          "20": 0.0,
+          "32": 0.0
+        },
+        "n_evaluable_by_gap": {
+          "1": 20,
+          "2": 20,
+          "3": 20,
+          "4": 20,
+          "5": 20,
+          "10": 20,
+          "20": 20,
+          "32": 20
+        },
+        "all_points_N20": true,
+        "H_95": 5,
+        "H_90": 5,
+        "H_50": 5
+      },
+      "H_5m": {
+        "rate_by_gap": {
+          "1": 1.0,
+          "2": 0.95,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0,
+          "10": 0.4,
+          "20": 0.0,
+          "32": 0.0
+        },
+        "n_evaluable_by_gap": {
+          "1": 20,
+          "2": 20,
+          "3": 20,
+          "4": 20,
+          "5": 20,
+          "10": 20,
+          "20": 20,
+          "32": 20
+        },
+        "all_points_N20": true,
+        "H_95": 5,
+        "H_90": 5,
+        "H_50": 5
+      },
+      "H_10m": {
+        "rate_by_gap": {
+          "1": 1.0,
+          "2": 1.0,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0,
+          "10": 0.85,
+          "20": 0.0,
+          "32": 0.0
+        },
+        "n_evaluable_by_gap": {
+          "1": 20,
+          "2": 20,
+          "3": 20,
+          "4": 20,
+          "5": 20,
+          "10": 20,
+          "20": 20,
+          "32": 20
+        },
+        "all_points_N20": true,
+        "H_95": 5,
+        "H_90": 5,
+        "H_50": 10
+      }
+    }
+  }
+}

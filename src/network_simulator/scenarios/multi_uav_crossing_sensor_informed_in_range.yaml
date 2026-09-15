@@ -1,0 +1,54 @@
+simulation:
+  scenario_id: sensor_informed_multi_uav_crossing_in_range
+  duration: 10.0
+  seed: 42
+  station_error_model:
+    type: sensor_informed_v1
+    calibration_profile: data/sensor_informed/artifacts/sensor_informed_v1.json
+uavs:
+- name: uav_1
+  initial_state:
+  - -27.235654
+  - -26.359517
+  - 45.392756
+  - 5.447131
+  - 2.723565
+  - 0.0
+- name: uav_2
+  initial_state:
+  - 27.235654
+  - 0.876136
+  - 45.392756
+  - -5.447131
+  - -2.723565
+  - 0.0
+- name: uav_3
+  initial_state:
+  - 18.157102
+  - -44.516619
+  - 45.392756
+  - -3.63142
+  - 0.0
+  - 0.0
+stations:
+- id: A
+  position:
+  - -31.774929
+  - -58.134446
+  frequency_hz: 60.0
+  position_std: 2.0
+  velocity_std: 0.5
+- id: B
+  position:
+  - 0.0
+  - -58.134446
+  frequency_hz: 35.0
+  position_std: 2.0
+  velocity_std: 0.5
+- id: C
+  position:
+  - 31.774929
+  - -58.134446
+  frequency_hz: 20.0
+  position_std: 2.0
+  velocity_std: 0.5

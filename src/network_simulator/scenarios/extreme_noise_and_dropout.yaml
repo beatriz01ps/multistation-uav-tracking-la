@@ -1,0 +1,40 @@
+# Much higher position noise (10.0 vs the typical 1.5-2.0) plus two overlapping
+# dropout windows leaving only one station sustaining the track - tests whether the filter stays alive under poor data, for both CV and CT.
+
+simulation:
+  scenario_id: final_extreme_noise_and_dropout
+  split: final
+  duration: 14.0
+  seed: 99
+
+uavs:
+  - name: uav_straight_noisy
+    initial_state: [-70.0, 20.0, 100.0, 12.0, -3.0, 0.0]
+    dropout_windows:
+      - {station_id: A, start_s: 4.0, end_s: 9.0}
+  - name: uav_turning_noisy
+    initial_state: [-70.0, -40.0, 100.0, 10.0, 8.0, 0.0]
+    turn_schedule:
+      - duration_s: 3.0
+        omega: 0.0
+      - duration_s: 8.0
+        omega: 0.35
+    dropout_windows:
+      - {station_id: B, start_s: 6.0, end_s: 11.0}
+
+stations:
+  - id: A
+    position: [0.0, 90.0]
+    frequency_hz: 20
+    position_std: 10.0
+    velocity_std: 3.0
+  - id: B
+    position: [90.0, -30.0]
+    frequency_hz: 20
+    position_std: 10.0
+    velocity_std: 3.0
+  - id: C
+    position: [-90.0, -60.0]
+    frequency_hz: 25
+    position_std: 8.0
+    velocity_std: 2.5

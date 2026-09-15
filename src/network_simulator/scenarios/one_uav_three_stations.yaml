@@ -1,0 +1,26 @@
+# One UAV observed by 3 stations at different frequencies/noise. Expected: a
+# single consistent GlobalTrack, never three permanent GlobalTracks for the same target.
+
+simulation:
+  scenario_id: final_one_uav_three_stations
+  split: final
+  duration: 30.0
+  seed: 42
+
+uavs:
+  - name: uav_1
+    initial_state: [0.0, 0.0, 100.0, 10.0, 3.0, 0.0]
+
+stations:
+  - id: A
+    frequency_hz: 60
+    position_std: 2.0
+    velocity_std: 0.5
+  - id: B
+    frequency_hz: 35
+    position_std: 4.0
+    velocity_std: 0.8
+  - id: C
+    frequency_hz: 20
+    position_std: 6.0
+    velocity_std: 1.0

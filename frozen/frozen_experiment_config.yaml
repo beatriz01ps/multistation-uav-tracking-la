@@ -1,0 +1,93 @@
+association:
+  mahalanobis_probability: 0.9983
+  euclidean_gate_distance_m: 38.68727584737331
+  mode: position_only
+motion_model: coordinated_turn
+reference_filter: ukf
+reference_t2tf: information
+duplicate_merger:
+  enabled: true
+  fusion_strategy: information
+lifecycle:
+  state_dimension: 6
+  tentative_confirmation_hits: 3
+  tentative_timeout_seconds: 5.0
+  coasting_timeout_seconds: 10.0
+  lost_timeout_seconds: 20.0
+  deletion_timeout_seconds: 32.0
+synchronization:
+  synchronization_window_ms: 100.0
+  late_message_policy: drop
+final_seeds:
+- 2001
+- 2002
+- 2003
+- 2004
+- 2005
+- 2006
+- 2007
+- 2008
+- 2009
+- 2010
+- 2011
+- 2012
+- 2013
+- 2014
+- 2015
+- 2016
+- 2017
+- 2018
+- 2019
+- 2020
+final_scenarios:
+- dropout_and_id_switch
+- extreme_dense_swarm_crossing
+- extreme_noise_and_dropout
+- extreme_sharp_zigzag
+- geometry_flanking
+- geometry_inline
+- loop_crossing
+- loop_crossing_obstacle
+- multi_uav_crossing
+- multi_uav_nonlinear
+- one_uav_three_stations
+- two_uavs_three_stations
+- visual_occlusion
+software_commit: null
+software_dirty: null
+python_platform: Windows-11-10.0.26200-SP0
+calibration_artifact: calibration\euclidean_gate_report.json
+sci_status: BLOCKED_MATHEMATICALLY - sampling-based covariance adjustment (eq. 53-55)
+  not confirmed, SCI-6D excluded from the scientific battery
+reference_pipeline_full:
+  tracking:
+    state_dimension: 6
+    tentative_confirmation_hits: 3
+    tentative_timeout_seconds: 5.0
+    coasting_timeout_seconds: 10.0
+    lost_timeout_seconds: 20.0
+    deletion_timeout_seconds: 32.0
+  association:
+    metric: mahalanobis
+    mode: position_only
+    chi_square_probability: 0.9983
+    euclidean_gate_distance: 38.68727584737331
+    synchronization_window_ms: 100.0
+    late_message_policy: drop
+  filter:
+    type: ukf
+    motion_model: coordinated_turn
+    process_noise_acceleration_std: 2.0
+    turn_rate_process_noise_std: 0.05
+    initial_turn_rate_std: 0.3
+  fusion:
+    strategy: information
+    sci:
+      sample_count: 1000
+      fusion_weight: 0.5
+      random_seed: 42
+  duplicate_merger:
+    enabled: true
+    fusion_strategy: information
+  time:
+    time_scale: 1.0

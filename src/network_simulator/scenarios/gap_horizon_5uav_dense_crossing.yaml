@@ -1,0 +1,41 @@
+# GAP_HORIZON G4: 5 UAVs converging within ~30m of the origin at t=80s (all
+# pure CV, verified analytically). Only uav_1 undergoes the blackout. uav_2..uav_5 stay observed as identity competitors.
+
+simulation:
+  scenario_id: gap_horizon_5uav_dense_crossing
+  duration: 120.0
+  seed: 5001
+
+uavs:
+  - name: uav_1  # TARGET UNDER TEST
+    initial_state: [0.0, 480.0, 100.0, 0.0, -6.0, 0.0]
+  - name: uav_2
+    initial_state: [480.0, 20.0, 100.0, -6.0, 0.0, 0.0]
+  - name: uav_3
+    initial_state: [-480.0, -30.0, 100.0, 6.0, 0.0, 0.0]
+  - name: uav_4
+    initial_state: [340.0, 340.0, 100.0, -4.2, -4.2, 0.0]
+  - name: uav_5
+    initial_state: [-350.0, 350.0, 100.0, 4.4, -4.4, 0.0]
+
+stations:
+  - id: N
+    position: [0.0, 90.0]
+    frequency_hz: 50
+    position_std: 2.0
+    velocity_std: 0.6
+  - id: SW
+    position: [-90.0, -90.0]
+    frequency_hz: 50
+    position_std: 2.0
+    velocity_std: 0.6
+  - id: SE
+    position: [90.0, -90.0]
+    frequency_hz: 35
+    position_std: 2.5
+    velocity_std: 0.7
+  - id: NW
+    position: [-90.0, 90.0]
+    frequency_hz: 35
+    position_std: 2.5
+    velocity_std: 0.7

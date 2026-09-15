@@ -1,0 +1,29 @@
+# Same straight trajectory as geometry_flanking.yaml, but all three stations on
+# the same side, in line - contrasts the effect of station geometry arrangement.
+
+simulation:
+  scenario_id: final_geometry_inline
+  split: final
+  duration: 10.0
+  seed: 42
+
+uavs:
+  - name: uav_1
+    initial_state: [0.0, 50.0, 100.0, 10.0, 0.0, 0.0]
+
+stations:
+  - id: A
+    position: [15.0, 90.0]
+    frequency_hz: 35
+    position_std: 2.0
+    velocity_std: 0.5
+  - id: B
+    position: [50.0, 90.0]
+    frequency_hz: 35
+    position_std: 2.0
+    velocity_std: 0.5
+  - id: C
+    position: [85.0, 90.0]
+    frequency_hz: 35
+    position_std: 2.0
+    velocity_std: 0.5

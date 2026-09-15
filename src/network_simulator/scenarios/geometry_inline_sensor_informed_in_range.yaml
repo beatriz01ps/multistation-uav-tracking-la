@@ -1,0 +1,38 @@
+simulation:
+  scenario_id: sensor_informed_geometry_inline_in_range
+  duration: 10.0
+  seed: 42
+  station_error_model:
+    type: sensor_informed_v1
+    calibration_profile: data/sensor_informed/artifacts/sensor_informed_v1.json
+uavs:
+- name: uav_1
+  initial_state:
+  - 15.380075
+  - 50.0
+  - 69.239849
+  - 6.923985
+  - 0.0
+  - 0.0
+stations:
+- id: A
+  position:
+  - 25.766053
+  - 77.69594
+  frequency_hz: 35.0
+  position_std: 2.0
+  velocity_std: 0.5
+- id: B
+  position:
+  - 50.0
+  - 77.69594
+  frequency_hz: 35.0
+  position_std: 2.0
+  velocity_std: 0.5
+- id: C
+  position:
+  - 74.233947
+  - 77.69594
+  frequency_hz: 35.0
+  position_std: 2.0
+  velocity_std: 0.5

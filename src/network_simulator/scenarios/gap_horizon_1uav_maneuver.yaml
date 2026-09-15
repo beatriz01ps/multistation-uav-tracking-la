@@ -1,0 +1,30 @@
+# GAP_HORIZON G2: 1 UAV, same initial_state/stations as G1, with a sustained
+# coordinated turn (omega=0.03 rad/s) active during [40s,100s] covering the reacquisition instant (t=80s) -> pre-registered before any execution.
+
+simulation:
+  scenario_id: gap_horizon_1uav_maneuver
+  duration: 120.0
+  seed: 5001
+
+uavs:
+  - name: uav_1
+    initial_state: [0.0, 0.0, 100.0, 10.0, 3.0, 0.0]
+    turn_schedule:
+      - duration_s: 40.0
+        omega: 0.0
+      - duration_s: 60.0
+        omega: 0.03
+
+stations:
+  - id: A
+    frequency_hz: 60
+    position_std: 2.0
+    velocity_std: 0.5
+  - id: B
+    frequency_hz: 35
+    position_std: 4.0
+    velocity_std: 0.8
+  - id: C
+    frequency_hz: 20
+    position_std: 6.0
+    velocity_std: 1.0
